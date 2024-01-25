@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h2>Else if</h2>
+
+<p id="demo"></p>
+
+<script>
+let score = 80;
+let mark;
+if (score <= 90){
+  mark = "A";
+}else if(score>=80){
+  mark = "B";
+}else if(score>=70){
+  mark = "C";
+}else if(score>=60){
+  mark = "D";
+}else{
+  mark = "F";
+}
+
+document.getElementById("demo").innerHTML = "Your mark is :" + mark ;
+</script>
+
+</body>
+</html>
